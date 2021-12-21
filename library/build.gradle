@@ -14,7 +14,7 @@ android {
 
         externalNativeBuild {
             cmake {
-                arguments '-DANDROID_TOOLCHAIN=gcc', '-DANDROID_STL=gnustl_static',
+                arguments
                         '-DANDROID_PLATFORM=android-19'
                 cppFlags "-O3"
             }

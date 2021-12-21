@@ -6,7 +6,7 @@ import android.content.Intent;
 import android.opengl.GLSurfaceView;
 import android.os.Bundle;
 
-import com.inuker.library.utils.Utils;
+//import com.inuker.library.utils.Utils;
 
 public class MainActivity extends Activity {
 
@@ -29,7 +29,7 @@ public class MainActivity extends Activity {
         mGLSurfaceView.setRenderer(new CameraSurfaceRender(mGLSurfaceView));
         mGLSurfaceView.setRenderMode(GLSurfaceView.RENDERMODE_WHEN_DIRTY);
 
-        Utils.requestPermission(this, PERMISSIONS, 1);
+//        Utils.requestPermission(this, PERMISSIONS, 1);
     }
 
     @Override
